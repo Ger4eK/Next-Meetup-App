@@ -4,8 +4,7 @@ const NewMeetupPage = () => {
   const addMeetupHandler = (enteredMeetupData) => {
     console.log(enteredMeetupData);
   };
-
-  return <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+  return <NewMeetupForm onAddMeetup={addMeetupHandler} />
 };
 
-export default NewMeetupPage;
+export default NewMeetupPage
