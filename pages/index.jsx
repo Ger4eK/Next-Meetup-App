@@ -23,6 +23,7 @@ const HomePage = (props) => {
   return <MeetupList meetups={props.meetups} />;
 };
 
+//! SSR
 export async function getServerSideProps() {
   //TODO fetch data from an API
   return {
